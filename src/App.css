@@ -1,7 +1,9 @@
 .App {
   height: 100vh;
   padding-top: 10px;
-  background-color: #1b1b32;
+  background: #0f0c29;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #24243e, #302b63, #0f0c29);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #24243e, #302b63, #0f0c29); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   font-family: Lato, sans-serif;
   display: flex;
   flex-wrap: wrap;
@@ -10,12 +12,12 @@
 }
 
 .contenedor-calculadora {
-  width: 450px;
-  height: 600px;
+  width: auto;
+  height: auto;
   padding: 14px;
-  background-color: #99c9ff;
-  border-radius: 20px;
-  border: 5px solid white;
+  background-color: #b4b9be;
+  border-radius: 10px;
+  border: 5px solid rgb(97, 94, 94);
 }
 
 .fila {
@@ -24,3 +26,4 @@
   align-items: center;
   justify-content: center;
 }
+
